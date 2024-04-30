@@ -1,0 +1,44 @@
+.card-mini {
+  border: 1px solid rgba(0, 0 ,0, .2);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.card-mini__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.card-mini__header > h2 {
+  margin: 0;
+}
+
+.card-mini__header > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-mini__header > div > img {
+  width: 100%;
+  height: auto;
+}
+
+.card-mini__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-mini__body > p {
+  margin: 0;
+}
+
+.card-mini h2,
+.card-mini p {
+  font-family: sans-serif;
+}
